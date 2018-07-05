@@ -6,9 +6,9 @@
         {
             "label": "Build DNN App",
             "type": "shell",
-            "command": "cd ~/git/tensorflow && bazel build",
+            "command": "cd ~/git/tensorflow && bazel build ",
             "args": [
-                "--config=opt",
+                "-c opt --copt=-march=native --copt=-mssse3 --copt=-mfma --copt=-mcx16 --copt=-mpopcnt",
                 "tensorflow/dnn_tensorflow_cpp/..."
             ],
             "group": {

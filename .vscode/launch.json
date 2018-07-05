@@ -9,14 +9,14 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "cd ~/git/tensorflow && bazel-bin/tensorflow/dnn_tensorflow_cpp/model",
+            "program": "${workspaceFolder}/../../bazel-bin/tensorflow/dnn_tensorflow_cpp/model",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": true,
             "MIMode": "gdb",
-            "preLaunchTask": "build",
+            "preLaunchTask": "Build DNN App",
             "setupCommands": [
                 {
                     "description": "Enable pretty-printing for gdb",

@@ -54,14 +54,16 @@
                     "/usr/include/x86_64-linux-gnu",
                     "/usr/include",
                     "/usr/local/lib/python2.7/dist-packages/tensorflow/include",
-                    "/usr/local/include/eigen3",
                     "/home/liudanny/git/tensorflow",
                     "${workspaceRoot}",
                     "/home/liudanny/git/tensorflow/bazel-genfiles"
                 ],
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": ""
-            }
+            },
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
         },
         {
             "name": "Win32",
@@ -85,5 +87,5 @@
             }
         }
     ],
-    "version": 3
+    "version": 4
 }
