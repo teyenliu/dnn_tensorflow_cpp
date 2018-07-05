@@ -107,7 +107,6 @@ int main() {
     
     // std::cout << outputs2[0].DebugString() << "\n";
     // Tensor<type: float shape: [3,3] values: [-0.0126736602 0.0042776796 0.0139701068]...>
-    
     // testing: prepare to print out the data of the tensor
     tensorflow::TTypes<float, 2>::Tensor data = outputs2[0].flat_inner_dims<float>();
     auto dims = data.dimensions();
